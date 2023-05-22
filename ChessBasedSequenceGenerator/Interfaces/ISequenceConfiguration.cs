@@ -3,7 +3,7 @@
 	public interface ISequenceConfiguration
 	{
         int Length();
-		bool IsValid(string sequence);
+        bool IsValid(string sequence);
 	}
 
     public interface ISequenceRule
